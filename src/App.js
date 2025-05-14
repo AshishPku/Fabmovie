@@ -39,6 +39,9 @@ const App = () => {
     setWatchedList((WatchedList) => WatchedList.filter((e) => e.imdbID !== id));
   };
 
+
+  
+
   useEffect(() => {
     const controller = new AbortController();
     async function FetchData() {
